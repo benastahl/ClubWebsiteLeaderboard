@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "benastahl",
+      "email": "benastahl@gmail.com",
+      "github": "thevolt6"
+    },
+    {
+      "username": "benastahl1",
+      "email": "benastahl1@gmail.com",
+      "github": "thevolt7"
+    },
+    {
+      "username": "benastahl2",
+      "email": "benastahl2@gmail.com",
+      "github": "thevolt8"
+    },
+    {
+      "username": "jonsstahl",
+      "email": "jonsstahl@gmail.com",
+      "github": "jon"
+    }
+  ]
+}
