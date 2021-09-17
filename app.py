@@ -41,13 +41,13 @@ class App:
             for logged_user in user_info["users"]:
                 if logged_user["username"] == self.username:
                     self.js.document.getElementById('Submit Form Error').innerHTML = "Username already taken."
-                    return
+                    return False
                 elif logged_user["email"] == self.email:
                     self.js.document.getElementById('Submit Form Error').innerHTML = "Email already taken."
-                    return
+                    return False
                 elif logged_user["github"] == self.github:
                     self.js.document.getElementById('Submit Form Error').innerHTML = "Github Account already taken."
-                    return
+                    return False
 
             # Log user info
             user_info["users"].append(self.user_data)
